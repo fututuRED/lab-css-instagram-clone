@@ -8,3 +8,51 @@ body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
 }
+ul {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.page {
+  display: flex;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.login {
+  background-color: #1c5380;
+  overflow-x: visible;
+}
+.text-section {
+  background-image: url("/lab-css-instagram-clone/images/frame.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 20px;
+  text-align: left;
+  margin-right: 80px;
+}
+.iphone {
+  display: flex;
+  margin-right: 40px;
+  margin-left: 80px;
+  margin-top: 80px;
+}
+h1 {
+  color: #06365f;
+}
+
+.foot {
+  display: flex;
+  align-content: center;
+}
+a {
+  text-decoration: none;
+  color: #1c5380;
+  font-size: larger;
+}
